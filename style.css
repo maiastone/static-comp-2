@@ -1,6 +1,6 @@
 body {
   background-color: #EFEFEF;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
 
@@ -12,14 +12,15 @@ main {
 
 header {
   width: 100vw;
+  height: 70px;
   display: flex;
   justify-content: space-between;
-  padding: 2%;
+  padding: 2% 2% 3% 2%;
   background-color: #2B2B2B;
 }
 
 header h4 {
-  padding: 2%;
+  padding: 7% 2% 0% 2%;
 }
 
 a {
@@ -30,10 +31,12 @@ a {
 h1 {
   font-size: 2em;
   color: white;
+  padding-top: 20px;
 }
 
 h2 {
   font-size: 1.5em;
+  font-weight: 300;
 }
 
 h3 {
@@ -41,6 +44,8 @@ h3 {
 }
 
 h4 {
+  font-weight: 300;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-size: .7em;
   padding-top: 9%;
@@ -62,24 +67,24 @@ h5 {
   width: 85%;
   display: flex;
   justify-content: flex-start;
-  color: #5D5E63;
+  color: #838488;
 }
 
 .main-header {
   color: #2B2B2B;
-  padding: 6% 0 2% 2%;
+  padding: 3% 0 1% 2%;
 }
 
 .link-container {
   width: 90%;
   margin: 2%;
-  background-color: #d2d2d2;
+  background-color: #EFEFEF;
   padding: 3%;
 }
 
 .card {
-  width: 230px;
-  height: 330px;
+  width: 200px;
+  height: 300px;
   margin: .6%;
   overflow: auto;
   background-color: #ffffff;
@@ -127,11 +132,11 @@ h5 {
 #down {
   width: 7px;
   height: 7px;
-  padding-left: 5px;
+  padding-left: 7px;
   margin-bottom: 1%;
 }
 
 #profile {
   height: 20px;
-  padding-right: 5px;
+  padding-right: 7px;
 }
