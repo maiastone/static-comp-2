@@ -48,18 +48,18 @@ h4 {
 }
 
 h5 {
-  padding-top: 3%;
-  padding-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   font-size: .6em;
 }
 .right-side-header {
-  width: 25%;
+  width: 15%;
   padding-right: 2%;
   text-align: center;
 }
 
 .left-side-header {
-  width: 75%;
+  width: 85%;
   display: flex;
   justify-content: flex-start;
   color: #5D5E63;
@@ -116,4 +116,22 @@ h5 {
 
 .highlight {
   color: #32B8FF;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#down {
+  width: 7px;
+  height: 7px;
+  padding-left: 5px;
+  margin-bottom: 1%;
+}
+
+#profile {
+  height: 20px;
+  padding-right: 5px;
 }
