@@ -1,11 +1,13 @@
 body {
   background-color: #EFEFEF;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
-  padding: 2%;
+  padding: 1%;
 }
 
 header {
@@ -30,6 +32,26 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: .8em;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: .7em;
+  padding-top: 9%;
+  padding-bottom: 1%;
+}
+
+h5 {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  font-size: .6em;
+}
 .right-side-header {
   width: 25%;
   padding-right: 2%;
@@ -45,18 +67,20 @@ h1 {
 
 .main-header {
   color: #2B2B2B;
+  padding: 6% 0 2% 2%;
 }
 
 .link-container {
   width: 90%;
   margin: 2%;
   background-color: #d2d2d2;
+  padding: 3%;
 }
 
 .card {
-  width: 200px;
-  height: 300px;
-  margin: .5%;
+  width: 230px;
+  height: 330px;
+  margin: .6%;
   overflow: auto;
   background-color: #ffffff;
   box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
@@ -65,10 +89,31 @@ h1 {
 .card-header {
   background-color: #77787A;
   text-align: right;
-  padding-right: 3%;
-  padding-bottom: 3%;
+  padding-right: 7%;
+  display: flex;
+  align-items: top;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 5% 5% 20% 5%;
+}
+
+.right-side-card-header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 20%;
+}
+
+.left-side-card-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
 }
 
 .card-body {
-  padding: 3%;
+  padding: 5%;
+}
+
+.highlight {
+  color: #32B8FF;
 }
