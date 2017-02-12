@@ -17,12 +17,13 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 2% 2% 3% 2%;
-  background-color: #2B2B2B;
+  background-color: #77787A;
 }
 
 header h4 {
   padding: 7% 4% 0% 1%;
   font-size: .8em;
+  color: #b2b2b2
 }
 
 a {
@@ -86,7 +87,7 @@ h5 {
 .link-container {
   width: 90%;
   margin: 2%;
-  background-color: #EFEFEF;
+  background-color: #D1D1D1;
   padding: 3%;
 }
 
@@ -100,7 +101,7 @@ h5 {
 }
 
 .card-header {
-  background-color: #77787A;
+  /*background-color: #b2b2b2;*/
   text-align: right;
   padding-right: 7%;
   display: flex;
@@ -108,6 +109,9 @@ h5 {
   flex-direction: row;
   justify-content: flex-end;
   padding: 5% 5% 20% 5%;
+}
+#card-img-1 {
+  background: url('/gears.jpg') no repeat center;
 }
 
 .right-side-card-header {
@@ -128,7 +132,7 @@ h5 {
 }
 
 .highlight {
-  color: #32B8FF;
+  color: #A643B2;
 }
 
 .login {
@@ -155,4 +159,39 @@ h5 {
 
 #logo {
   font-family: 'Kadwa', serif;
+}
+
+@media screen and (max-width: 900px) {
+  .right-side-header {
+    width: 16%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .right-side-header {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .right-side-header {
+    width: 20%;
+  }
+  header {
+    padding-bottom: 2%;
+  }
+}
+@media screen and (max-width: 600px) {
+  header h4 {
+    padding-top: 10%;
+  }
+  .right-side-header {
+    width: 25%;
+  }
+  .left-side-header img {
+    padding-top: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .right-side-header {
+    width: 30%;
+  }
 }
