@@ -110,9 +110,32 @@ h5 {
   justify-content: flex-end;
   padding: 5% 5% 20% 5%;
 }
+
 #card-img-1 {
-  background: url('/gears.jpg') no repeat center;
+  background: url('./gears.jpg') no-repeat center;
 }
+#card-img-2 {
+  background: url('./dublin.jpg') no-repeat center;
+}
+#card-img-3 {
+  background: url('./work.jpg') no-repeat center;
+}
+#card-img-4 {
+  background: url('./kathmandu.jpg') no-repeat center;
+}
+#card-img-5 {
+  background: url('./open-air-swim.jpg') no-repeat center;
+}
+#card-img-6 {
+  background: url('./electrico.jpg') no-repeat center;
+}
+#card-img-7 {
+  background: url('./antartica.jpg') no-repeat center;
+}
+#card-img-8 {
+  background: url('./mini-tv.jpg') no-repeat center;
+}
+
 
 .right-side-card-header {
   display: flex;
