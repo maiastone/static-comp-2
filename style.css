@@ -48,9 +48,9 @@ h3 {
 }
 
 h4 {
+  font-size: .7em;
   letter-spacing: .7px;
   text-transform: uppercase;
-  font-size: .7em;
   padding-top: 9%;
   padding-bottom: 1%;
 }
@@ -61,6 +61,16 @@ h5 {
   padding-bottom: 4%;
   color: gray;
 }
+
+.highlight {
+  color: #7a1f85;
+}
+
+.main-header {
+  color: #504a4a;
+  padding: 3% 0 1% 2%;
+}
+
 .right-side-header {
   text-align: center;
 }
@@ -77,18 +87,6 @@ h5 {
   padding-top: 7%;
 }
 
-.main-header {
-  color: #504a4a;
-  padding: 3% 0 1% 2%;
-}
-
-.link-container {
-  width: 90%;
-  margin: 2%;
-  background-color: #D1D1D1;
-  padding: 3%;
-}
-
 .card {
   width: 210px;
   height: 310px;
@@ -99,7 +97,6 @@ h5 {
 }
 
 .card-header {
-  /*background-color: #b2b2b2;*/
   text-align: right;
   padding-right: 7%;
   display: flex;
@@ -107,6 +104,36 @@ h5 {
   flex-direction: row;
   justify-content: flex-end;
   padding: 5% 5% 20% 5%;
+}
+
+.right-side-card-header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 20%;
+}
+
+.left-side-card-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+.card-body {
+  padding: 5%;
+}
+
+.link-container {
+  width: 90%;
+  margin: 2%;
+  background-color: #D1D1D1;
+  padding: 3%;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #card-img-1 {
@@ -132,34 +159,6 @@ h5 {
 }
 #card-img-8 {
   background: url('./images/joanna.jpg') no-repeat center;
-}
-
-
-.right-side-card-header {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  width: 20%;
-}
-
-.left-side-card-header {
-  display: flex;
-  justify-content: flex-start;
-  width: 80%;
-}
-
-.card-body {
-  padding: 5%;
-}
-
-.highlight {
-  color: #7a1f85;
-}
-
-.login {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 #down {
@@ -195,34 +194,33 @@ h5 {
   header h4 {
     padding-top: 10%;
   }
-
   .left-side-header img {
     padding-top: 10%;
   }
 }
 
 @media screen and (max-width: 500px) {
+  main {
+    justify-content: center;
+  }
   header {
     display: block;
     height: 100px;
-  }
-  .right-side-header {
-    text-align: left;
-    display: flex;
   }
   header h4 {
     padding: 5px;
     font-size: 10px;
   }
-  .left-side-header {
-    width: 100%;
-  }
-  main {
-    justify-content: center;
-  }
   .main-header {
     padding: 6% 0 3% 2%;
     text-align: center
+  }
+  .right-side-header {
+    text-align: left;
+    display: flex;
+  }
+  .left-side-header {
+    width: 100%;
   }
   .left-side-header img {
     padding: 0 0 0 10px;
